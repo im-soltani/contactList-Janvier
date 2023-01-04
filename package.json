@@ -1,0 +1,19 @@
+{
+  "name": "contactlist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "config": "^3.3.8",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.2",
+    "redux-devtools-extension": "^2.13.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
