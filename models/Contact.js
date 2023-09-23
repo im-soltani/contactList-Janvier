@@ -12,6 +12,7 @@ const ContactSchema = new schema({
   phone: {
     type: Number,
   },
+  image: { type: String, required: false },
   dateCreation: {
     type: Date,
     default: Date.now(),

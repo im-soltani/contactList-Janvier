@@ -23,6 +23,8 @@ const dispatch=useDispatch()
         <CardTitle tag="h5"> {contact.name} </CardTitle>
         <CardText>{contact.email} </CardText>
         <CardText>{contact.phone} </CardText>
+        <img style={{width:"100px",height:"100px",display:"block", margin: "0 auto" }} src={contact.image} alt="img"/>
+
         <CardText>
           {contact.dateCreation.slice(0, 10)} ---{" "}
           {contact.dateCreation.slice(11, 19)}{" "}

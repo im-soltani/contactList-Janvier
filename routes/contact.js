@@ -22,12 +22,13 @@ const Contact = require("../models/Contact");
 //     .catch((err) => console.log(err));
 // });
 router.post("/add", async (req, res) => {
-  const { name, email, phone } = req.body;
+  const { name, email, phone ,image} = req.body;
   try {
     const newContact = new Contact({
       name,
       email,
       phone,
+      image
     });
     const contact = await newContact.save();
     res.json({ msg: "contact added", contact });
